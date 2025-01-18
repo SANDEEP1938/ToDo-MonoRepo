@@ -1,0 +1,19 @@
+{
+  "name": "filter",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "shared/filter/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/shared/filter",
+        "main": "shared/filter/src/index.ts",
+        "tsConfig": "shared/filter/tsconfig.lib.json",
+        "assets": ["shared/filter/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

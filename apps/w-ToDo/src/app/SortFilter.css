@@ -1,0 +1,18 @@
+.sort-filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+}
+
+.filter-button:hover {
+  background-color: #1976D2;
+}

@@ -1,0 +1,9 @@
+.todo-list {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.todo-list p {
+  color: gray;
+  text-align: center;
+}
